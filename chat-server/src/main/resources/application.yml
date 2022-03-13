@@ -1,0 +1,12 @@
+server:
+  port: 30001
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+    #      url: jdbc:mysql://${database}:3306/shcpe_mme?characterEncoding=utf-8&useUnicode=true&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+    #      username: ever
+    #      password: Ever@311
+    url: jdbc:mysql://1.15.240.85:3306/chat_room?characterEncoding=utf-8&useUnicode=true&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai
+    username: root
+    password: admin123
